@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/gustavo-rosendo/expressjs-201#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.2",
-    "helmet": "^5.0.2"
+    "hbs": "^4.2.0",
+    "helmet": "^5.0.2",
+    "pug": "^3.0.2"
   }
 }
