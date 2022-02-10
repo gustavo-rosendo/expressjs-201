@@ -1,0 +1,15 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+  const ourRequest = $.ajax({
+    method: "POST",
+    url: "http://localhost:3000/ajax",
+    dataType: "json",
+    data: {
+      name: "Gustavo"
+    }
+  })
+  ourRequest.then((response) => {
+    console.log(response)
+  })
+</script>
