@@ -1,5 +1,14 @@
+<%- include('head') %>
+<%- include('navbar') %>
 
-<h1>Rendering file using EJS!</h1>
+<h1>Home Page with EJS!</h1>
+
+<h2><%= msg %></h2>
+<h3><%= msg2 %></h3>
+<h4><%= validated %></h4>
+<%- html %>
+
+<%# This is a comment which is not going to display in the front-end page %>
 
 <% for (let i=0; i < 5; i++) { %>
   <li>Test <%= i %></li>
