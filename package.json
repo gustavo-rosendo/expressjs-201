@@ -1,0 +1,23 @@
+{
+  "name": "expressjs-201",
+  "version": "1.0.0",
+  "description": "Simple sample using ExpressJS as middleware and for rendering in different ways",
+  "main": "appUse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavo-rosendo/expressjs-201.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavo-rosendo/expressjs-201/issues"
+  },
+  "homepage": "https://github.com/gustavo-rosendo/expressjs-201#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "helmet": "^5.0.2"
+  }
+}
